@@ -1,2 +1,2 @@
 1- LISTMFAUSERS
-Powershell script to list MFA status on Azure AD tenant. With this script, we can check the users with MFA per user enabled, and also MFA over Conditional Access rules enbled by user.
+Powershell script to list users MFA status on Azure AD tenant. We can check the users with MFA per user enabled, and also MFA over Conditional Access rules enbled by user.
