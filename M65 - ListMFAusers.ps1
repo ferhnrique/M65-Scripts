@@ -1,4 +1,4 @@
-﻿#Install-Package MSOnline
+#Install-Package MSOnline
 $mfaPolicies = $null
 $upn = $null
 $CARules = $null
@@ -73,7 +73,7 @@ ForEach ($User in $Users) {
         MFADefaultMethod  = $MFADefaultMethod
         PWDLstset          = $user.LastPasswordChangeTimeStamp
         MFAviaCA           = $MFASTATUS
-        z
+        
     }
                  
     $Report.Add($ReportLine)
@@ -88,3 +88,4 @@ https://www.alitajran.com/export-office-365-users-mfa-status-with-powershell/#:~
 https://thesysadminchannel.com/get-per-user-mfa-status-using-powershell/
 https://www.cyberdrain.com/automating-with-powershell-enabling-secure-defaults-and-sd-explained/
 https://techcommunity.microsoft.com/t5/azure/report-on-mfa-status-with-conditional-access/m-p/1420735
+#>
